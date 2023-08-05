@@ -1,0 +1,29 @@
+#favorites {
+    border: 2px solid var(--primary-color);
+    display:grid;
+    grid-template-rows: 2fr 4fr;
+}
+
+.favorites-head {
+    background-color: var(--primary-color);
+    color: antiquewhite;
+    font-family: var(--playfair-display);
+    font-size: 30px;
+    padding: 100px;
+    text-align: center;
+}
+
+.favorites-list {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y:auto;
+    scrollbar-gutter: stable;
+    padding: 20px;
+    height:100%;
+    background-color: antiquewhite; 
+    text-align: center;
+    color:var(--primary-color)
+}
